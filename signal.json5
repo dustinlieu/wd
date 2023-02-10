@@ -1,4 +1,15 @@
-{signal: [
-  {name: 'EXTERNAL_TRIGGER', wave: '010........'},
-  {name: 'STROBE',           wave: '0..10....10'}
-]}
+{
+  signal: [
+    {name: 'EXTERNAL_TRIGGER', wave: '010..............'},
+    {                          node: '.AB..............'},
+    {name: 'STROBE',           wave: '0..1...0....1...0'},
+    {                          node: '...C...D....E...F'}
+  ],
+  edge: [
+    'A+B 2 us',
+    'C+D 3.502 ms',
+    'D+E 16.768 ms',
+    'E+F 3.502 ms'
+  ]
+}
+
