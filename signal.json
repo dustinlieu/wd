@@ -1,0 +1,4 @@
+{signal: [
+  {name: 'EXTERNAL_TRIGGER', wave: '010........'},
+  {name: 'STROBE',           wave: '0..10....10'}
+]}
